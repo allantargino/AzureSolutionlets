@@ -9,7 +9,11 @@ Acesse https://azure.microsoft.com/pt-br/pricing/free-trial/ e clique no botão 
 Logue-se com uma conta Microsoft (hotmail, live, etc). Em seguida, preencha seus dados. É necessário um telefone celular para verificar sua identidade, bem como um cartão de crédito válido. Após ler os termos e, caso concorde com eles, cheque *Eu concordo..."* seguido do clique em **Inscrever-se**:
 ![Cadastro](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/img02.png)
 
+Você será uma levado a uma página onde deve aguardar alguns instantes até que sua subscrição esteja pronto para uso. Uma vez pronta, clique no botão verde para continuar e ser levado à tela inicial do Microsoft Azure:
+![Tela Inicial](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/img03.png)
+
 ### Passo 1: Regressão Linear Simples com Azure
+
 
 ### Passo 2: Consumindo o serviço anterior web de ML dentro do Excel
 
