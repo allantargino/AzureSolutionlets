@@ -15,7 +15,9 @@ Você será uma levado a uma página onde deve aguardar alguns instantes até qu
 ![Tela Inicial](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p0-img03.png)
 
 ### Passo 1: Regressão Linear Simples com Azure
-
+Dentro do portal do Azure, clique em New, seguido de Data + Analytics e Machine Learning, conforme a figura abaixo:
+![Criação ML](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img01.png)
+>Você pode chegar ao mesmo ambiente acessando diretamente o endereço https://studio.azureml.net. Caso você não tenha uma subscrição do Azure, pode acessar o ambiente (de maneira limitada) logando-se com uma conta Microsoft.
 
 ### Passo 2: Consumindo o serviço anterior web de ML dentro do Excel
 
