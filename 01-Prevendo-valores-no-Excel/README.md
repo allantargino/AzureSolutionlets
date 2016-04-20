@@ -10,7 +10,7 @@ Logue-se com uma conta Microsoft (hotmail, live, etc). Em seguida, preencha seus
 ![Cadastro](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/img02.png)
 
 Você será uma levado a uma página onde deve aguardar alguns instantes até que sua subscrição esteja pronto para uso. Uma vez pronta, clique no botão verde para continuar e ser levado à tela inicial do Microsoft Azure:
-![Tela Inicial](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/img03.png)
+![Tela Inicial](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/img03.PNG)
 
 ### Passo 1: Regressão Linear Simples com Azure
 
