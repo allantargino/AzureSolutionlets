@@ -37,6 +37,9 @@ Pegue, neste repositório, o arquivo *apartamentos.csv* e use o formulário aber
 Após obter a confirmação que o arquivo foi submetido, clique em **New**, **Experiment**, seguido de **Blank Experiment**:
 ![Novo Exp](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img07.png)
 
+Renomeie o nome do experimento para **Apartamentos Exp**:
+![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img08.png)
+
 ### Passo 2: Consumindo o serviço anterior web de ML dentro do Excel
 
 ### Passo 3: Regressão Linear Múltipla com Azure
