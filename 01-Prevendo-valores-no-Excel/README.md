@@ -34,6 +34,9 @@ Ao chegar entrar no ambiente do ML Studio, clique em **New**, **Dataset**, segui
 Pegue, neste repositório, o arquivo *apartamentos.csv* e use o formulário aberto para inseri-lo ML Studio, conforme abaixo:
 ![Upar DS](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img06.png)
 
+Após obter a confirmação que o arquivo foi submetido, clique em **New**, **Experiment**, seguido de **Blank Experiment**:
+![Novo Exp](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img07.png)
+
 ### Passo 2: Consumindo o serviço anterior web de ML dentro do Excel
 
 ### Passo 3: Regressão Linear Múltipla com Azure
