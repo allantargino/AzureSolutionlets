@@ -29,7 +29,10 @@ Em seguida, clique em *Sign-in to ML Studio*:
 >Você pode chegar ao mesmo ambiente acessando diretamente o endereço https://studio.azureml.net. Caso você não tenha uma subscrição do Azure, pode acessar o ambiente (de maneira limitada) logando-se com uma conta Microsoft.
 
 Ao chegar entrar no ambiente do ML Studio, clique em **New**, **Dataset**, seguido de **From local file**:
-![Upar DS](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img04.png)
+![Upar DS](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img05.png)
+
+Pegue, neste repositório, o arquivo *apartamentos.csv* e use o formulário aberto para inseri-lo ML Studio, conforme abaixo:
+![Upar DS](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img06.png)
 
 ### Passo 2: Consumindo o serviço anterior web de ML dentro do Excel
 
