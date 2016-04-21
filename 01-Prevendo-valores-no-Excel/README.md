@@ -42,6 +42,3 @@ Renomeie o nome do experimento para **Apartamentos Exp**:
 
 ### Passo 2: Consumindo o serviço anterior web de ML dentro do Excel
 
-### Passo 3: Regressão Linear Múltipla com Azure
-
-### Passo 4: Consumindo o serviço anterior web de ML dentro do Excel
