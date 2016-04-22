@@ -11,10 +11,10 @@ Acesse https://azure.microsoft.com/pt-br/pricing/free-trial/ e clique no botão 
 ![](/01-Prevendo-valores-no-Excel/images/p0-img01.png)
 
 Logue-se com uma conta Microsoft (hotmail, live, etc). Em seguida, preencha seus dados. É necessário um telefone celular para verificar sua identidade, bem como um cartão de crédito válido. Após ler os termos e, caso concorde com eles, cheque *Eu concordo..."* seguido do clique em **Inscrever-se**:
-![](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p0-img02.png)
+![](/01-Prevendo-valores-no-Excel/images/p0-img02.png)
 
 Você será uma levado a uma página onde deve aguardar alguns instantes até que sua subscrição esteja pronto para uso. Uma vez pronta, clique no botão verde para continuar e ser levado à tela inicial do Microsoft Azure:
-![](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p0-img03.png)
+![](/01-Prevendo-valores-no-Excel/images/p0-img03.png)
 
 ### Passo 1: Regressão Linear Simples com Azure
 Dentro do portal do Azure, clique em **New**, seguido de **Data + Analytics** e **Machine Learning**, conforme a figura abaixo:
@@ -99,13 +99,13 @@ Realizaremos a seleção/filtragem de colunas usando o bloco **Project Columns**
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img25.png)
 
 
-![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img26.png)
-![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img27.png)
-![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img28.png)
-![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img29.png)
-![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img30.png)
-![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img31.png)
-![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img32.png)
+![](/01-Prevendo-valores-no-Excel/images/p1-img26.png)
+![](/01-Prevendo-valores-no-Excel/images/p1-img27.png)
+![](/01-Prevendo-valores-no-Excel/images/p1-img28.png)
+![](/01-Prevendo-valores-no-Excel/images/p1-img29.png)
+![](/01-Prevendo-valores-no-Excel/images/p1-img30.png)
+![](/01-Prevendo-valores-no-Excel/images/p1-img31.png)
+![](/01-Prevendo-valores-no-Excel/images/p1-img32.png)
 
 ### Passo 2: Consumindo o serviço anterior web de ML dentro do Excel
 Uma vez realizado o passo anterior, podemos utilizar o Excel como interface para prever quaisquer valores de entrada neste mesmo schema.
