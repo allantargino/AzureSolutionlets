@@ -96,15 +96,27 @@ Para melhoramos nosso serviço, iremos filtrar algumas colunas. Para tal, **dele
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img24.png)
 
 Realizaremos a seleção/filtragem de colunas usando o bloco **Project Columns**. Ache-o em **Data Transformation** seguido de **Manipulation**, arraste-o para o experimento:
-![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img25.png)
+![](/01-Prevendo-valores-no-Excel/images/p1-img25.png)
 
-
+**Ligue** apartamentos.csv a Project Columns, seguido da ligação de Project Columns a Score Model. **Clique** sobre **Project Columns** e em seguida, dentro da janela de propriedades, clique em **Launch column selector**:
 ![](/01-Prevendo-valores-no-Excel/images/p1-img26.png)
+
+Usando a seta que aponta para a direita, **selecione todas as colunas com exceção de preco_aluguel**. Confirme a seleção em seguida:
 ![](/01-Prevendo-valores-no-Excel/images/p1-img27.png)
+
+Arraste outro bloco de **Project Columns** e coloque-o **entre Score Model e Web service output**. Faça as ligações conforme mostra a figura abaixo, ligando Score Model a Project Columns e Project Columns a Web service output. Da mesma forma que feito anteriormente, **clique** no recém-adicionado bloco Project Columns e vá em **Launch column selector**:
 ![](/01-Prevendo-valores-no-Excel/images/p1-img28.png)
+
+Selecione **apenas** a coluna **Scored Labels**, que é justamente a coluna com os valores previstos/calculados por nosso modelo. Confirme a seleção:
 ![](/01-Prevendo-valores-no-Excel/images/p1-img29.png)
+
+Usando o menu inferior, salve o experimento preditivo com o botão **SAVE**. Em seguida, rode o experimento utilizando o botão **RUN**. Por fim, clique em **DEPLOY WEB SERVICE** para exportar e fazer deploy do serviço web relativo a nosso modelo de predição:
 ![](/01-Prevendo-valores-no-Excel/images/p1-img30.png)
+
+Nosso serviço pretivo está pronto! Para prosseguirmos e conseguirmos utilizá-lo em conjunto com o Excel (ou qualquer outro meio), é necessário que se tenha em mãos os dados API key e URL do endpoint do serviço. Clique no **botão copiar** do campo **API key** e guarde este valor em algum lugar, como por exemplo, o bloco de notas.
 ![](/01-Prevendo-valores-no-Excel/images/p1-img31.png)
+
+Para obter a **URL** de nosso serviço, clique com o direito sobre o link **REQUEST/RESPONSE** e copie o endereço do mesmo. Guarde este valor.
 ![](/01-Prevendo-valores-no-Excel/images/p1-img32.png)
 
 ### Passo 2: Consumindo o serviço anterior web de ML dentro do Excel
