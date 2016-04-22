@@ -40,10 +40,18 @@ Após obter a confirmação que o arquivo foi submetido, clique em **New**, **Ex
 Renomeie o nome do experimento para **Apartamentos Exp**:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img08.png)
 
-
+No menu lateral esquerdo, expanda o nó **Saved Datasets**, em seguida o nó **My Datasets** e arraste o dataset *apartamentos.csv* para o experimento:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img09.png)
+
+Vá ao nó **Data Transformation**, **Sample and Split** e arraste o bloco **Split Data** ao experimento:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img10.png)
+
+Clique sobre o bloco **Split Data** adicionado. A janela de propriedades ao lado direita da tela conterá os parâmetros associados a ele, de modo que você deve setar a propriedade **Fraction of rows in the first...** para **0.6**. **Ligue** a saída do dataset a entrada do Split Data.
+>O bloco Split Data recebe os dados de um dataset e o divide de maneira aleatória em duas saídas. Em nosso caso, na primeira saída teremos 60% de linhas, ao passo que na segunda saída 40%.
+
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img11.png)
+
+
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img12.png)
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img13.png)
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img14.png)
@@ -103,5 +111,5 @@ Parabéns! Você concluiu este Hands-on-lab e conseguiu prever valores utilizand
 
 ### Recursos Adicionais:
 
-* MVA Machine Learning
-* GitHub do MVA de Machine Learning
+* [MVA de Machine Learning](https://mva.microsoft.com/en-us/training-courses/data-science-and-machine-learning-essentials-14100?l=UyhoTxWdB_3505050723)
+* [GitHub do MVA de Machine Learning](https://github.com/MicrosoftLearning/Data-Science-and-ML-Essentials)
