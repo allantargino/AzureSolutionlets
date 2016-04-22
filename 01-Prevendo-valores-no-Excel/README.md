@@ -1,4 +1,7 @@
 # #AzureSolutionlet - Prevendo valores no Excel
+
+>Este Hands-on-lab faz parte da série #AzureSolutionlet, onde resolve-se problemas específicos através de rápidos deploys utilizando o Microsoft Azure. O vídeo relacionado a esta solução pode ser encontrado aqui(#).
+
 Através deste Hands-on-lab você aprenderá a fazer a previsão de valores no Excel utilizando técnicas de regressão linear dentro do Azure Machine Learning Studio. É interessante que você faça o setup de uma conta trial no Azure a fim de obter o máximo desempenho e recursos do ML Studio, apesar disto não ser necessário para utilizá-lo.
 >Ao criar sua conta trial, você receberá R$ 750,00 para gastar em todos serviços do Azure, como máquinas virtuais, bancos de dados SQL, sites e muitos outros.
 
@@ -69,7 +72,7 @@ Usando o modelo já treinado iremos usar a outra porção inicial dos dados para
 **Ligue** a saída de **Train Model** à **primeira entrada** de Score Model, bem como a **segunda saída** de Split Data à **segunda entrada** de Score Model: 
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img17.png)
 
-Nosso experimento inicial está pronto. Salve-o clicando em **SAVE** e em seguida clique em **RUN** para rodá-lo.
+Nosso experimento inicial está pronto. Salve-o clicando em **SAVE** e em seguida clique em **RUN** para rodá-lo, usando o menu inferior.
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img18.png)
 
 Caso não haja erros, um indicador verde de sucesso aparecerá ao lado de cada bloco de execução, conforme mostra a figura abaixo:
@@ -79,11 +82,14 @@ Caso não haja erros, um indicador verde de sucesso aparecerá ao lado de cada b
 >O mais recomendado é que se utilize a categoria **Evaluate** para obter dados estatísticos sobre como a predição se comportou, como médias, dispersões e outros mais.
 
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img20.png)
-Pode-se notar que alguns valores foram previstos dentro de uma exatidão muito boa, ao passo que alguns outros mantiveram-se um pouco distantes do esperado. Tivemos apenas uma anomalia não-tolerável em nosso modelo.
 
-
+Pode-se notar que alguns valores foram previstos dentro de uma exatidão muito boa (verde), ao passo que alguns outros mantiveram-se um pouco distantes do esperado (amarelo). Tivemos apenas uma anomalia não-tolerável em nosso modelo (vermelho).
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img21.png)
+
+Supondo que nosso modelo de dados atingiu a exatidão desejada, é hora de exportá-lo como um serviço web que pode ser consumido via REST por práticamente qualquer dispositivo/linguagem de programação. No entanto, iremos utilizar o Excel (próxima sessão/passo) para tal. No menu inferior, clique em **SET UP WEB SERVICE**, seguido de **Predictive Web Service**:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img22.png)
+
+
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img23.png)
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img24.png)
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img25.png)
