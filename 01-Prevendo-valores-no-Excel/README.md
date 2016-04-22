@@ -49,7 +49,7 @@ Após obter a confirmação que o arquivo foi submetido, clique em **New**, **Ex
 
 ![](/01-Prevendo-valores-no-Excel/images/p1-img07.png)
 
-Renomeie o nome do experimento para **Apartamentos Exp**:
+Renomeie o nome do experimento para **Apartamentos 01**:
 
 ![](/01-Prevendo-valores-no-Excel/images/p1-img08.png)
 
@@ -163,7 +163,7 @@ Abra o arquivo **Apartamentos_Relatorio.xlsx** e certifique-se que está na plan
 
 ![](/01-Prevendo-valores-no-Excel/images/p2-img02.png)
 
-Clique em **Trust it** para adicionar o Excel Add-in a sua solução:
+Clique em **Trust It** para adicionar o Excel Add-in a sua solução:
 
 ![](/01-Prevendo-valores-no-Excel/images/p2-img03.png)
 
