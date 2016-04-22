@@ -18,7 +18,7 @@ Você será uma levado a uma página onde deve aguardar alguns instantes até qu
 
 ![](/01-Prevendo-valores-no-Excel/images/p0-img03.png)
 
-### Passo 1: Regressão Linear Simples com Azure
+### Passo 1: Regressão Linear Simples com Azure ML
 Dentro do portal do Azure, clique em **New**, seguido de **Data + Analytics** e **Machine Learning**, conforme a figura abaixo:
 
 ![](/01-Prevendo-valores-no-Excel/images/p1-img01.png)
