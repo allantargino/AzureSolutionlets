@@ -93,5 +93,12 @@ Pressione **Ok**:
 
 **Desmarque** a caixa **My data has headers**. No campo output1, deve-se colocar a primeira célula que receberá o resultado do processamento dos dados de entrada. Em nosso caso, clique dentro de **output1** e digite **K7**. **Desmarque** também a caixa **Include headers**:
 ![K6 e desmarcar](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img08.png)
+
+Após tirar o foco da caixa output1, bem como realizar todos os passos acima, o add-in deve estar semelhante à figura abaixo. Por fim, clique em **Predict**:
 ![Conferir](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img09.png)
+
+Parabéns! Você concluiu este Hands-on-lab e conseguiu prever valores utilizando o Azure Machine Learning e Excel!
 ![Previsao Completa](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img10.png)
+
+### Recursos Adicionais:
+
