@@ -147,12 +147,12 @@ Pressione **Ok**:
 ![](/01-Prevendo-valores-no-Excel/images/p2-img08.png)
 
 Após tirar o foco da caixa output1, bem como realizar todos os passos acima, o add-in deve estar semelhante à figura abaixo. Por fim, clique em **Predict**:
+
 ![](/01-Prevendo-valores-no-Excel/images/p2-img09.png)
 
 Parabéns! Você concluiu este Hands-on-lab e conseguiu prever valores utilizando o Azure Machine Learning e Excel!
->Neste experimento realizamos um processo simples de Machine Learning. Em um experimento mais completo, deveríamos utilizar recursos mais avançados.
-
 ![](/01-Prevendo-valores-no-Excel/images/p2-img10.png)
+>Neste experimento realizamos um processo simples de Machine Learning. Em um experimento mais completo, deveríamos utilizar recursos mais avançados.
 
 ### Recursos Adicionais:
 
