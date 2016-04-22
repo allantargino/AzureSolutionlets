@@ -81,6 +81,8 @@ Clique em **Trust** para adicionar o Excel Add-in a sua solução:
 
 Após o add-in ser adicionado ao Excel, clique em **Add Web Service**:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img04.png)
+
+Neste momento você irá utilizar os valores da **URL** e **API Key**, colando-os nos respectivos campos. Em seguida clique em :
 ![URL e API-Key](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img05.png)
 ![Sel Range](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img06.png)
 ![OK Range](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img07.png)
