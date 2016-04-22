@@ -53,7 +53,7 @@ Abra o arquivo **Apartamentos_Relatorio.xlsx** e certifique-se que está na plan
 Clique em **Trust** para adicionar o Excel Add-in a sua solução:
 ![Add App](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img03.png)
 
-
+Após o add-in ser adicionado ao Excel, clique em **Add Web Service**:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img04.png)
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img05.png)
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img06.png)
