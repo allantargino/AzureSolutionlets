@@ -111,7 +111,7 @@ Abra o arquivo **Apartamentos_Relatorio.xlsx** e certifique-se que está na plan
  Pesquise por *Machine Learning* pressionando enter, cliquando no resultado da figura mostrada abaixo:
 ![Add App](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img02.png)
 
-Clique em **Trust** para adicionar o Excel Add-in a sua solução:
+Clique em **Trust it** para adicionar o Excel Add-in a sua solução:
 ![Add App](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img03.png)
 
 Após o add-in ser adicionado ao Excel, clique em **Add Web Service**:
@@ -130,6 +130,7 @@ Pressione **Ok**:
 ![K6 e desmarcar](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img08.png)
 
 Após tirar o foco da caixa output1, bem como realizar todos os passos acima, o add-in deve estar semelhante à figura abaixo. Por fim, clique em **Predict**:
+
 ![Conferir](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img09.png)
 
 Parabéns! Você concluiu este Hands-on-lab e conseguiu prever valores utilizando o Azure Machine Learning e Excel!
