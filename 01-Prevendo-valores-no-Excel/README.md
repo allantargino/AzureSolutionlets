@@ -82,10 +82,16 @@ Clique em **Trust** para adicionar o Excel Add-in a sua solução:
 Após o add-in ser adicionado ao Excel, clique em **Add Web Service**:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img04.png)
 
-Neste momento você irá utilizar os valores da **URL** e **API Key**, colando-os nos respectivos campos. Em seguida clique em :
+Neste momento você irá utilizar os valores da **URL** e **API Key**, colando-os nos respectivos campos. Em seguida clique em **Add**:
 ![URL e API-Key](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img05.png)
+
+Devemos agora indicar ao add-in quais dados desejamos prever. Selecione o intervalo de dados na planilha conforme mostra a figura, clicando no botão do campo *Input1* (em vermelho, abaixo):
 ![Sel Range](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img06.png)
+
+Pressione **Ok**:
 ![OK Range](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img07.png)
+
+**Desmarque** a caixa **My data has headers**. No campo output1, deve-se colocar a primeira célula que receberá o resultado do processamento dos dados de entrada. Em nosso caso, clique dentro de **output1** e digite **K7**. **Desmarque** também a caixa **Include headers**:
 ![K6 e desmarcar](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img08.png)
 ![Conferir](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img09.png)
 ![Previsao Completa](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img10.png)
