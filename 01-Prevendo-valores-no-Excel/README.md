@@ -63,12 +63,25 @@ Pegue também, sobre a categoria **Machine Learning** seguido dos nós **Initial
 Nesta etapa devemos selecionar qual valor deverá ser o previsto. Em nosso caso, digite **preco_alguel**, referente ao nosso dataset de apartamentos. Confirme em seguida a seleção:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img15.png)
 
-
+Usando o modelo já treinado iremos usar a outra porção inicial dos dados para verificar o quão apurado ele está, computando os valores previstos e comparando-os com os valores reais. Para isto dentro de **Score**, arraste o bloco **Score Model**:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img16.png)
+
+**Ligue** a saída de **Train Model** à **primeira entrada** de Score Model, bem como a **segunda saída** de Split Data à **segunda entrada** de Score Model: 
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img17.png)
+
+Nosso experimento inicial está pronto. Salve-o clicando em **SAVE** e em seguida clique em **RUN** para rodá-lo.
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img18.png)
+
+Caso não haja erros, um indicador verde de sucesso aparecerá ao lado de cada bloco de execução, conforme mostra a figura abaixo:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img19.png)
+
+É interessante comparar, mesmo que forma levemente analítica, como nosso modelo se comportou. **Clique com o direito** sobre a **saída** do bloco **Score Model**, e escolha Visualize:
+>O mais recomendado é que se utilize a categoria **Evaluate** para obter dados estatísticos sobre como a predição se comportou, como médias, dispersões e outros mais.
+
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img20.png)
+Pode-se notar que alguns valores foram previstos dentro de uma exatidão muito boa, ao passo que alguns outros mantiveram-se um pouco distantes do esperado. Tivemos apenas uma anomalia não-tolerável em nosso modelo.
+
+
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img21.png)
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img22.png)
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img23.png)
