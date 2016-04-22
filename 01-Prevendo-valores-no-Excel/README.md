@@ -5,7 +5,7 @@
 Através deste Hands-on-lab você aprenderá a fazer a previsão de valores no Excel utilizando técnicas de regressão linear dentro do Azure Machine Learning Studio. É interessante que você faça o setup de uma conta trial no Azure a fim de obter o máximo desempenho e recursos do ML Studio, apesar disto não ser necessário para utilizá-lo.
 >Ao criar sua conta trial, você receberá R$ 750,00 para gastar em todos serviços do Azure, como máquinas virtuais, bancos de dados SQL, sites e muitos outros. Caso você já possua uma subscrição ativa do Azure, por favor pule o Passo 0.
 
-### Passo 0: Conta Trial do Azure
+### Passo 0: Criar conta trial do Microsoft Azure
 Acesse https://azure.microsoft.com/pt-br/pricing/free-trial/ e clique no botão **Teste agora**:
 
 ![](/01-Prevendo-valores-no-Excel/images/p0-img01.png)
@@ -20,34 +20,45 @@ Você será uma levado a uma página onde deve aguardar alguns instantes até qu
 
 ### Passo 1: Regressão Linear Simples com Azure
 Dentro do portal do Azure, clique em **New**, seguido de **Data + Analytics** e **Machine Learning**, conforme a figura abaixo:
+
 ![](/01-Prevendo-valores-no-Excel/images/p1-img01.png)
 
 Você será levado ao portal antigo do Azure, onde deve dar um nome para o Workspace, bem como para uma conta de armazenamento:
+
 ![](/01-Prevendo-valores-no-Excel/images/p1-img02.png)
 
 Após alguns instantes, o Workspace será criado e aparecerá na aba Machine Learning. Clique em *ExperimentosExcel*:
+
 ![](/01-Prevendo-valores-no-Excel/images/p1-img03.png)
 
 Em seguida, clique em *Sign-in to ML Studio*:
+
 ![](/01-Prevendo-valores-no-Excel/images/p1-img04.png)
+
 >Você pode chegar ao mesmo ambiente acessando diretamente o endereço https://studio.azureml.net. Caso você não tenha uma subscrição do Azure, pode acessar o ambiente (de maneira limitada) logando-se com uma conta Microsoft.
 
 Ao chegar entrar no ambiente do ML Studio, clique em **New**, **Dataset**, seguido de **From local file**:
+
 ![](/01-Prevendo-valores-no-Excel/images/p1-img05.png)
 
 Pegue, neste repositório, o arquivo *apartamentos.csv* e use o formulário aberto para inseri-lo ML Studio, conforme abaixo:
+
 ![](/01-Prevendo-valores-no-Excel/images/p1-img06.png)
 
 Após obter a confirmação que o arquivo foi submetido, clique em **New**, **Experiment**, seguido de **Blank Experiment**:
+
 ![](/01-Prevendo-valores-no-Excel/images/p1-img07.png)
 
 Renomeie o nome do experimento para **Apartamentos Exp**:
+
 ![](/01-Prevendo-valores-no-Excel/images/p1-img08.png)
 
 No menu lateral esquerdo, expanda o nó **Saved Datasets**, em seguida o nó **My Datasets** e arraste o dataset *apartamentos.csv* para o experimento:
+
 ![](/01-Prevendo-valores-no-Excel/images/p1-img09.png)
 
 Vá ao nó **Data Transformation**, **Sample and Split** e arraste o bloco **Split Data** ao experimento:
+
 ![](/01-Prevendo-valores-no-Excel/images/p1-img10.png)
 
 Clique sobre o bloco **Split Data** adicionado. A janela de propriedades ao lado direita da tela conterá os parâmetros associados a ele, de modo que você deve setar a propriedade **Fraction of rows in the first...** para **0.6**. **Ligue** a saída do dataset a entrada do Split Data.
