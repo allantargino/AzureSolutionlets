@@ -47,15 +47,23 @@ Vá ao nó **Data Transformation**, **Sample and Split** e arraste o bloco **Spl
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img10.png)
 
 Clique sobre o bloco **Split Data** adicionado. A janela de propriedades ao lado direita da tela conterá os parâmetros associados a ele, de modo que você deve setar a propriedade **Fraction of rows in the first...** para **0.6**. **Ligue** a saída do dataset a entrada do Split Data.
->O bloco Split Data recebe os dados de um dataset e o divide de maneira aleatória em duas saídas. Em nosso caso, na primeira saída teremos 60% de linhas, ao passo que na segunda saída 40%.
+>O bloco Split Data recebe os dados de um dataset e o divide de maneira aleatória em duas saídas. Em nosso caso, na primeira saída teremos 60% de linhas, ao passo que na segunda saída 40%. Essa divisão é importante pois parte dos dados é realizada a regressão e a outra parte será usada para testes sobre o modelo utilizado. Nossa base de dados é extremamente pequena para fins de Machine Learning, mas como o propósito deste hands-on-lab é apenas guiá-lo nos passos necessários, este detalhe será relevado.
 
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img11.png)
 
-
+Agora vá até **Machine Learning**, expanda **Train** e arraste o bloco **Train Model**:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img12.png)
+
+Pegue também, sobre a categoria **Machine Learning** seguido dos nós **Initialize Model** e **Regression**, o bloco **Linear Regression:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img13.png)
+
+**Ligue** Linear Regression na **primeira** entrada de Train Model, bem como Split Data na **segunda** entrada. Clique sobre Train Model para que as propriedades do mesmo sejam mostradas no menu lateral direito. Clique em **Launch Column Selector**:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img14.png)
+
+Nesta etapa devemos selecionar qual valor deverá ser o previsto. Em nosso caso, digite **preco_alguel**, referente ao nosso dataset de apartamentos. Confirme em seguida a seleção:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img15.png)
+
+
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img16.png)
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img17.png)
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img18.png)
