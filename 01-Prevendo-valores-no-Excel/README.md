@@ -3,7 +3,7 @@ Através deste Hands-on-lab você aprenderá a fazer a previsão de valores no E
 >Ao criar sua conta trial, você receberá R$ 750,00 para gastar em todos serviços do Azure, como máquinas virtuais, bancos de dados SQL, sites e muitos outros.
 
 ### Passo 0: Conta Trial do Azure
->Caso você já possua uma subscrição ativa do Azure, por favor vá para o passo 1.
+>Caso você já possua uma subscrição ativa do Azure, por favor pule esta etapa.
 
 Acesse https://azure.microsoft.com/pt-br/pricing/free-trial/ e clique no botão **Teste agora**:
 ![Oferta Trial do Azure](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p0-img01.png)
@@ -41,4 +41,16 @@ Renomeie o nome do experimento para **Apartamentos Exp**:
 ![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p1-img08.png)
 
 ### Passo 2: Consumindo o serviço anterior web de ML dentro do Excel
-
+Uma vez realizado o passo anterior, podemos utilizar o Excel como interface para prever quaisquer valores de entrada neste mesmo schema.
+Abra o arquivo **Apartamentos_Relatorio.xlsx** e certifique-se que está na planilha *Apartamentos - Multipla*. Vá na aba Insert (Inserir), clicando no botão Store (Suplementos):
+>Caso não tenha o Microsoft Excel em sua máquina, logue-se em https://office.live.com/start/Excel.aspx e reproduza os mesmos passos a seguir.
+ ![Add App](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img01.png)
+![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img02.png)
+![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img03.png)
+![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img04.png)
+![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img05.png)
+![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img06.png)
+![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img07.png)
+![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img08.png)
+![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img09.png)
+![Renomear](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p2-img10.png)
