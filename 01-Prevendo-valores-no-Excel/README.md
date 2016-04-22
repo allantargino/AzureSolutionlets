@@ -195,7 +195,7 @@ Parabéns! Você concluiu este Hands-on-lab e conseguiu prever valores utilizand
 
 ![](/01-Prevendo-valores-no-Excel/images/p2-img10.png)
 
->Neste experimento realizamos um processo simples de Machine Learning. Em um experimento mais completo, deveríamos utilizar recursos mais avançados.
+>Neste experimento realizamos um processo simples de Machine Learning, contando com poucos blocos de processamento e uma quantidade de dados extremamente pequena. Em um experimento mais completo, deveríamos utilizar recursos mais avançados bem como uma base de dados maior.
 
 ### Recursos Adicionais:
 
