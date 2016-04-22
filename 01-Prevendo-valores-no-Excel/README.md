@@ -8,7 +8,7 @@ Através deste Hands-on-lab você aprenderá a fazer a previsão de valores no E
 
 ### Passo 0: Conta Trial do Azure
 Acesse https://azure.microsoft.com/pt-br/pricing/free-trial/ e clique no botão **Teste agora**:
-![](/images/p0-img01.png)
+![](/01-Prevendo-valores-no-Excel/images/p0-img01.png)
 
 Logue-se com uma conta Microsoft (hotmail, live, etc). Em seguida, preencha seus dados. É necessário um telefone celular para verificar sua identidade, bem como um cartão de crédito válido. Após ler os termos e, caso concorde com eles, cheque *Eu concordo..."* seguido do clique em **Inscrever-se**:
 ![](https://github.com/allantargino/AzureSolutionlets/blob/master/01-Prevendo-valores-no-Excel/images/p0-img02.png)
