@@ -199,5 +199,5 @@ Parabéns! Você concluiu este Hands-on-lab e conseguiu prever valores utilizand
 
 ### Recursos Adicionais:
 
-* [MVA de Machine Learning](https://mva.microsoft.com/en-us/training-courses/data-science-and-machine-learning-essentials-14100?l=UyhoTxWdB_3505050723)
+* [MVA de Machine Learning](https://mva.microsoft.com/en-us/training-courses/data-science-and-machine-learning-essentials-14100)
 * [GitHub do MVA de Machine Learning](https://github.com/MicrosoftLearning/Data-Science-and-ML-Essentials)
