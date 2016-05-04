@@ -1,0 +1,19 @@
+<div class="zone-list" ng-model="zoneItem">
+    <header class="zone-list__header">
+        <div class="zone-list__header-nav">
+            <a href="index.html" class="zone-list__header-button">voltar</a>
+            <h1 class="zone-list__header-title">Wifi livre em São Paulo</h1>
+        </div>
+    </header>
+
+    <div class="zone-detail">
+        <h2 class="zone-list__subtitle">{{zoneItem[currentZone].nome}} - {{zoneItem[currentZone].zona}}</h2>
+        <div class="zone-detail__info">
+            <address class="zone-list__address">
+              <span>Endereço</span>
+              {{zoneItem[currentZone].endereco}}, {{zoneItem[currentZone].bairro}}</address>
+        </div>
+        <img src="http://wifilivre.sp.gov.br/imgs/mapas/{{zoneItem[currentZone].mapa_imagem}}" alt="Mapa {{zoneItem[currentZone].nome}}, rede Wifi livre em São Paulo" title="Mapa {{zoneItem[currentZone].nome}}, rede Wifi livre em São Paulo" class="zone-list__place" />
+        <a href="{{zoneItem[currentZone].link_mapa}}" target="_blank" class="zone-list__button">Ver no mapa</a>
+    </div>
+</div>

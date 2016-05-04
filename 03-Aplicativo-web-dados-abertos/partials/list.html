@@ -1,0 +1,20 @@
+<header class="zone-list__header">
+    <div class="zone-list__header-nav">
+        <h1 class="zone-list__header-title">Wifi livre em São Paulo</h1>
+    </div>
+    <div class="zone-list__header-search">
+        <input type="text" ng-model="filterZone" placeholder="Busque pelo nome do local ou bairro" class="zone-list__filter"/>
+        <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+</header>
+
+<section>
+  <ul class="zone-list">
+      <li ng-repeat="item in zoneItem | orderBy:nome | filter:filterZone">
+          <a class="zone-list__item" href="#/details/{{zoneItem.indexOf(item)}}" title="{{item.name }}">
+              <span class="zone-list__neighborhood">{{item.bairro}}</span>
+              <strong class="zone-list__title">{{item.nome}}</strong>
+          </a>
+      </li>
+  </ul>
+</section>
